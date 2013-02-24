@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0;
+margin:0;
+}
+
+html, body{
+height:100%;
+width:100%;
+background-color:#CCC;
+}
+
+#contaner{
+width:900px;
+margin:0 auto;
+background-color:#FFF;
+min-height:100%;
+position:relative;
+}
+
+*html #contaner{
+height:100%;
+}
+
+#empty{
+height:40px;
+}
+
+#footer{
+min-height:40px;
+margin:-40px auto 0;
+width:900px;
+position:relative;
+text-align:center;
+}
+
+#header{
+text-align:center;
+}
+
+.login{
+margin:30px auto 0;
+background-color:#5FF253;
+padding:30px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+.login td{
+padding:5px;
+}
+
+a{
+	color: #0033ff;
+}
+
+#open-div a, #close-div a{
+
+	text-decoration: none;
+	border-bottom: 1px dotted #0033ff;
+}
+
+#slider{
+position:absolute;
+top:0;
+right:0;
+z-index:10;
+width:201px;
+text-align: center;
+padding-bottom: 2px;
+}
+
+#slider-in{
+position:relative;
+z-index:25;
+height:0;
+overflow:hidden;
+background-image: url('/img/login-bg.gif');
+background-repeat: no-repeat;
+}
